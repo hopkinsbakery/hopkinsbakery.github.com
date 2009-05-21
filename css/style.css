@@ -1,0 +1,103 @@
+body {
+	background-color: #400000;
+	color: #340101;
+}
+h1 {
+	border-bottom: 3px solid #EFD491;
+}
+
+#header {
+	background-color: #01B9CD;
+	color: #000000;
+	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+	padding-bottom: 0.25em;
+}
+#header .headline-left {
+	float: left;
+	font-weight: bold;
+	margin: 0.25em 1em 0.25em 1em;
+}
+#header .headline-right {
+	margin: 0.25em 1em 0.25em 1em;
+	text-align: right;
+}
+#header address {
+	display: inline;
+}
+
+#sidebar {
+	text-align: center;
+}
+
+#nav ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#nav ul, #nav ul li {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#nav ul li {
+	border-bottom: 2px solid #FCE6AC;
+	list-style: none;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#nav ul li.last {
+	border-bottom: none;
+}
+#nav a:link, #nav a:visited { text-decoration: none; color: #340101; }
+#nav a:hover { text-decoration: underline; color: #c33; }
+#nav a:active, #nav a:focus { text-decoration: none; color: #000; }
+
+#container {
+	background: #FCE6AC url(../img/sidebar-background.png) repeat-y 0 0;
+}
+#container dt, #container dd { display: inline; }
+#container dt { font-weight: bold; }
+#container dd.price {
+	display: block;
+	font-style: italic;
+}
+#container dd.image, #container dd.googlecart {
+	display: block;
+	text-indent: 0;
+}
+#container dd.image {
+	padding-left: 4em;
+}
+#container dl {
+	padding-left: 3em;
+	text-indent: -3em;
+}
+#container .notice {
+	background:#FFF6BF;
+	color:#514721;
+	padding:.8em;
+	margin-bottom:1.6em;
+	border:2px solid #FFD324;
+}
+
+#content {
+	padding-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#footer {
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+input.googlecart-widget-quantity-box {
+	width: 2em;
+}
+
+#flickr-badge {
+	padding-bottom: 1em;
+}
+.zg_div {margin:0px 5px 5px 0px; width:180px;}
+.zg_div_inner { color:#666666; text-align:center; font-family:arial, helvetica; font-size:11px;}
+.zg_div a, .zg_div a:hover, .zg_div a:visited {color:#3993ff; background:inherit !important; text-decoration:none !important;}
